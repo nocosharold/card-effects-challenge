@@ -21,25 +21,24 @@ img {
 }
 
 .card-profile img {
-    position: relative;
-    top: 10px;
-    left: -120px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-left: 40px;
 }
 
-.card-profile h2 {
+.card-user h2 {
     color: #333;
-    display: inline-block;
-    position: relative;
-    top: -55px;
-    left: -80px;
+    position: absolute;
+    top: 45px;
+    left: 186px;
 }
 
-.card-profile p {
-    display: inline-block;
-    position: absolute;
-    top: 70px;
-    left: 185px;
+.card-user p {
     color: #a7a5a7;
+    position: absolute;
+    top: 78px;
+    left: 186px;
 }
 
 .card-description {
@@ -146,7 +145,7 @@ img {
     visibility: hidden;
 }
 
-.activeNow .card-description,
+.activeNow p,
 .activeNow img {
     visibility: visible;
 }
